@@ -12,6 +12,11 @@ button {
 }
 body{
     font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+header{
+    line-height: 1.5; 
 }
 /* =============== /MAIN =============== */
 /* =============== HEDER =============== */
@@ -31,58 +36,49 @@ body{
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
 }
-.text-studio{
+.text-studio:hover{
+    color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
-.text-portfolio{
+.text-portfolio:hover{
+    color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
-.text-contacts{
+.text-contacts:hover{
+    color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
-.text-address{
+.text-address:hover{
+    color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
 }
-.text-address-telephone{
+.text-address-telephone:hover{
+    color: #404BBF;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    Color: #434455;
 }
 /* =============== /HEDER =============== */
 /* =============== BODY =============== */
 .main-text-wb{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
-    letter-spacing: 0.02em;
     text-align: left;
-    color: #111111;
 }
 .main-button-wb{
     border-radius: 4px;
@@ -92,32 +88,29 @@ body{
      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
+.main-button-wb:active {
+    color: #404BBF
+}
 .text-strategy{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .main-text-strategy{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 .text-punctuality{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .main-text-punctuality{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -125,149 +118,105 @@ body{
     color: #434455;
 }
 .text-diligence{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .main-text-diligence{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 .text-technologies{
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 .main-text-technologies{
-    font-family: "Roboto", sans-serif;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 .main-text-portfolio{
-font-family: "Roboto",
-sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
-letter-spacing: 0.02em;
 text-align: center;
-color: #2e2f42;
 }
 .system-banking-app{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .text-app{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .system-payment{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .text-payment{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .system-meditation-app{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .system-app{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .system-taxi-service{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .text-taxi-service{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .system-screen-illustrations{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .text-screen-illustrations{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .system-online-courses{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .text-marketing{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .text-footer{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: #111111;
 }
 /* =============== /BODY =============== */
